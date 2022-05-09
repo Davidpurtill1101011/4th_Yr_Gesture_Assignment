@@ -6,9 +6,9 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/David/Desktop/LeapDeveloperKit_3.2.0+45899_win/LeapSDK/lib/LeapJava.jar">
+	<classpathentry kind="lib" path="D:/zGmitY4_2022/Gesture Based UI Development/GestureFinalProject/LeapDeveloperKit_3.2.0+45899_win/LeapSDK/lib/LeapJava.jar">
 		<attributes>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/David/Desktop/LeapDeveloperKit_3.2.0+45899_win/LeapSDK/lib/x86"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="D:/zGmitY4_2022/Gesture Based UI Development/GestureFinalProject/LeapDeveloperKit_3.2.0+45899_win/LeapSDK/lib/x64"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="output" path="bin"/>

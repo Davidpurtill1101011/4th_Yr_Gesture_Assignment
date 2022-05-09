@@ -2,23 +2,29 @@ package ie.atu.sw;
 
 import java.io.IOException;
 
-import com.leapmotion.leap.Controller;
+// leap motion library
+import com.leapmotion.leap.*;
 
 public class LeapMouse {
+	
 	public static void main(String[] args) {
-		Listeners l = new Listeners();
-		Controller c = new Controller();
-		c.addListener(l);
 		
+		// create instances of CustomListener and Controller
+		CustomListeners l = new CustomListeners();
+		Controller c = new Controller();
+		
+		// pass customListeners object to Listener
+		c.addListener(l);		
+		
+		// input from LeapMotion device
 		try {
-			System.in.read();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			System.in.read();			
+		} catch (IOException e) {			
 			e.printStackTrace();
-		}
+		}		
 		
 		c.removeListener(l);
-		
+
 	}
 
 }
